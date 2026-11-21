@@ -237,5 +237,8 @@ nav li a:not(.btn) { font-size: .92rem; }
 /* Mobile polish */
 @media (max-width: 560px) {
   .hero { padding-top: 2rem; }
-  .profile { padding: 1.5rem 1.25rem; }
-}
+  .profile { padding: 1.5rem 1.25rem; }}
+   /* ===== FINAL QA FIXES ===== */
+.grid > .project:only-child { grid-column: 1 / -1; max-width: 40rem; }
+@media (max-width: 560px) { .hero h1 { font-size: 1.95rem; } }
+
